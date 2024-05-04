@@ -1,16 +1,16 @@
-# fly.toml app configuration file generated for rooot-polished-sunset-4088 on 2024-05-01T23:50:02+05:00
+# fly.toml app configuration file generated for rooot-rough-log-9023 on 2024-05-05T00:28:22+05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'rooot-polished-sunset-4088'
+app = 'rooot-rough-log-9023'
 primary_region = 'sin'
 
 [build]
-  image = "flyio/hellofly:latest"
+  image = 'flyio/hellofly:latest'
 
 [env]
-  PORT = "3000" # add this
+  PORT = '3000'
 
 [http_service]
   internal_port = 3000
